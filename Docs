@@ -1,1 +1,23 @@
+Notes: AWS Storage & Database Project
+
+1. IAM
+- Created IAM roles with scoped policies for each AWS service.
+- MFA enabled for secure access.
+
+2. S3 + Glacier
+- Uploaded sample data to S3.
+- Configured lifecycle rule to move files to Glacier after 30 days.
+
+3. RDS
+- Created MySQL instance with Multi-AZ.
+- Allowed inbound port 3306 in security group for local testing.
+
+4. DynamoDB
+- Created table "UserRecords" with key: UserID.
+- Added sample records.
+
+5. Testing
+- Verified access from Python using Boto3.
+- Manual uploads via AWS Console.
+
 
