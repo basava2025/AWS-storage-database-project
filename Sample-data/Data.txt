@@ -1,1 +1,6 @@
+Sample project data for AWS S3 upload.
+This file is used to test the upload process from Python (boto3) or AWS CLI.
+
+Name: Basava
+Project: AWS Storage & Database Architecture
 
